@@ -1,0 +1,49 @@
+# 👉 Giữ lại nbproject (trừ private)
+nbproject/private/
+
+# 👉 Bỏ các thư mục build tạm
+/build/
+/dist/
+nbbuild/
+nbdist/
+nbactions.xml
+
+# 👉 Bỏ file biên dịch
+*.class
+
+# 👉 File log, tạm, backup
+*.log
+*.tmp
+*.bak
+
+# 👉 Tomcat hoặc server files (tạm)
+*.war
+*.ear
+/work/
+
+# 👉 IDE khác (nếu mở bằng IntelliJ hoặc VSCode)
+.idea/
+*.iml
+*.ipr
+*.iws
+.vscode/
+
+# 👉 Hệ điều hành sinh ra
+.DS_Store
+__MACOSX/
+
+# 👉 Bỏ thư mục upload nội dung người dùng (nếu có)
+uploads/
+
+# 👉 Bỏ cache của SonarQube nếu dùng
+.scannerwork/
+sonar-project.properties
+.sonar/
+sonar/
+
+# 👉 Bỏ cache build Maven nếu có dùng thêm
+/target/
+
+# 👉 Bỏ file cấu hình cá nhân
+config.properties
+application.properties
